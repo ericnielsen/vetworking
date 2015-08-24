@@ -65,6 +65,10 @@ p   {
     border: solid 1px white;
 }
 
+.borderbox:hover {
+    background-color: #3C86BD;
+}
+
 .whatisvetwork {
     display:block;
     position:relative;
