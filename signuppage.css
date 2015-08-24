@@ -1,0 +1,123 @@
+@font-face {
+    font-family: army;
+    src: url(Army.woff);
+}
+
+.army {
+    font-family:army;
+}
+
+.signinbox {
+    position:absolute;
+    left:985px;
+    top:34px;
+    color:white;
+}
+
+.forminstructions {
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.headbox {
+    display:block;
+    background-color:#3C86BD;
+    height:100px;
+    line-height:100px;
+    width:auto;
+    text-align:left;
+    color:white;
+    font-size:64px;
+    text-shadow: 3px 3px 0 black;
+    border-bottom:1px solid black;
+}
+
+.signuptext {
+    text-align:center;
+    margin-top:60px;
+    font-size:48px;
+    right:20px;
+}
+
+.vettitle   {
+    position:relative;
+    left:20px;
+}
+
+
+.bigdiv {
+    border: solid 1px black;
+    color:white;
+    background-color:#262626;
+}
+
+.formspacefirst {
+
+    margin-top:20px;
+}
+
+.formspacelast {
+    margin-top:20px;
+}
+
+.CCPPDisplayTDfirstname {
+    width:480px;
+}
+
+.CCPPDisplayTDlastname {
+    width:200px;
+}
+
+.CCPPDisplayTDemail {
+    width:480px;
+}
+
+.formspacing {
+    margin-top:20px;
+}
+
+.submitbutton {
+    margin-top:20px;
+    margin-bottom:60px;
+    position:relative;
+    left:216px;
+}
+.movesignuppic {
+    position:relative;
+    width:400px;
+    bottom:405px;
+    left:230px;
+}
+
+.whatarethebenefits {
+    display:block;
+    position:relative;
+    bottom: 317px;
+    /* right:12px; */
+    margin:auto;
+    color:white;
+    background-color:#3C86BD;
+    border:1px solid black;
+    height:60px;
+    line-height:60px;
+    width:1170px;
+    text-align:center;
+    font-size:36px;
+}
+
+.benefitsexplained {
+    display:block;
+    position:relative;
+    bottom:316px;
+    margin:auto;
+    color:white;
+    background-color:#262626;
+    border:1px solid black;
+    height:265px;
+    line-height:60px;
+    width:1170px;
+    text-align:justify;
+    font-size:16px;
+    padding-left:25px;
+    padding-right:25px;
+}
