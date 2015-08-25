@@ -75,18 +75,56 @@ p   {
     font-size:24px;
 }
 
-/*
-.toprightbox {
-    display:block;
-    background-color:#262626;
-    height:1000px;
+.gethiredimage {
+    position:relative;
+    right:15px;
+    width:720px;
+    height:350px;
+    border-top:3px solid white;
 }
 
-*/
+
+.toprightbox {
+    display:block;
+    width:350px;
+    background-color:#262626;
+    height:1200px;
+}
+
+.toprightbanner {
+    display:block;
+    position:relative;
+    right:15px;
+    background-color:#3C86BD;
+    color:white;
+    height:70px;
+    line-height:70px;
+    width:350px;
+    font-family:army;
+    font-size:36px;
+    text-shadow: 2px 2px 0 black;
+    text-align:center;
+}
+
+.toprightbannertexthead {
+    color:white;
+    border:white solid 1px;
+    text-align:center;
+    margin-top:30px;
+    background-color:#3C86BD;
+
+}
+
+.toprightbannersubtext {
+    color:white;
+    text-align:justify;
+    margin-top:15px;
+
+}
 
 .middleleftbox {
     display:block;
-    margin-top:40px;
+    margin-top:-430px;
     background-color:#262626;
     height:340px;
     border:solid 3px white;
