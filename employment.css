@@ -210,6 +210,22 @@ p   {
     border-right:solid 3px white;
 }
 
+.eliminategap {
+    margin-top:-50px;
+}
+
+.opacity {
+    display:block;
+    position:absolute;
+    width:1435px;
+    height:1750px;
+    opacity:.1;
+    background-color:grey;
+    top:142px;
+
+}
+
+
 .middlelefttext {
 
 }
