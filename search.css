@@ -1,0 +1,142 @@
+@font-face {
+    font-family: army;
+    src: url(misc/Army.woff);
+}
+
+.army {
+    font-family:army;
+}
+
+.signinbox {
+    position:absolute;
+    left:985px;
+    top:34px;
+    color:white;
+}
+
+.headbox {
+    display:block;
+    background-color:#3C86BD;
+    height:100px;
+    line-height:100px;
+    width:auto;
+    text-align:left;
+    color:white;
+    font-size:64px;
+    text-shadow: 3px 3px 0 black;
+    border-bottom:1px solid black;
+}
+
+p   {
+    position:relative;
+    left:20px;
+}
+
+.backcolor {
+    background-color:#3C3C3C;
+}
+
+.maincontainer {
+    padding-top:120px;
+}
+
+.findavetbanner {
+    text-align:center;
+    background-color:#3C86BD;
+    color:white;
+    font-family:army;
+    font-size:48px;
+    text-shadow: 2px 2px 0 black;
+    height:60px;
+    line-height:60px;
+    border-left:solid white 1px;
+    border-right:solid white 1px;
+    border-top:solid white 1px;
+}
+
+.desriptext {
+    text-align:center;
+    position:relative;
+    background-color:#262626;
+    color:white;
+    font-size:18px;
+    padding-top:40px;
+    padding-bottom:40px;
+    border-left:solid white 1px;
+    border-right:solid white 1px;
+    border-top:solid white 1px;
+}
+
+.customform {
+    margin:auto;
+    text-align:center;
+    background-color:#262626;
+    padding:20px;
+    color:white;
+}
+
+.formtext {
+    position:relative;
+    font-size:18px;
+    padding-right:300px;
+}
+
+.lastnametext{
+    position:relative;
+    font-size:18px;
+    padding-right:302px
+}
+
+.statetext{
+    position:relative;
+    font-size:18px;
+    padding-right:350px;
+}
+
+.citytext {
+    position:relative;
+    font-size:18px;
+    padding-right:360px;
+}
+
+.withintext {
+    position:relative;
+    font-size:18px;
+    padding-right:340px;
+}
+
+.ziptext {
+    position:relative;
+    font-size:18px;
+    padding-right:316px;
+}
+
+.keywordtext {
+    position:relative;
+    font-size:18px;
+    padding-right:318px;
+}
+
+.formborder {
+    border-left:solid white 1px;
+    border-right:solid white 1px;
+}
+
+.submitbutton {
+    text-align:center;
+    border-left:solid white 1px;
+    border-right:solid white 1px;
+    border-bottom:solid white 1px;
+    background-color:#262626;
+    padding-bottom:40px;
+    padding-top:40px;
+    margin-bottom:200px;
+}
+
+.buttonsize {
+    width:100px;
+    height:50px;
+    background-color:#3C86BD;
+    color:white;
+    border:1px solid white;
+}

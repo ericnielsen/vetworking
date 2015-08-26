@@ -32,9 +32,7 @@ p   {
     left:20px;
 }
 
-.backcolor {
-    background-color:#262626;
-}
+
 
 .box {
     display:block;
@@ -46,12 +44,12 @@ p   {
     margin-top:30px;
     text-align:center;
     background-color:#3C86BD;
-    width:400px;
+    width:900px;
     font-family:army;
-    font-size:36px;
+    font-size:42px;
     text-shadow: 2px 2px 0 black;
     color:white;
-    top:15px;
+    top:55px;
     border:1px solid white;
 }
 
@@ -60,7 +58,16 @@ p   {
     display:block;
     margin:auto;
     text-align:center;
-    margin-bottom:60px;
-    color:white;
-    bottom:5px;
+    margin-bottom:120px;
+    color:#514F51;
+    top:65px;
+    font-size:18px;
+
+}
+
+.greyback {
+    background-color:#C8C5C9;
+    border-top: #514F51;
+    position:relative;
+    bottom:29px;
 }
