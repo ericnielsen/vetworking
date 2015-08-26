@@ -1,0 +1,66 @@
+@font-face {
+    font-family: army;
+    src: url(misc/Army.woff);
+}
+
+.army {
+    font-family:army;
+}
+
+.signinbox {
+    position:absolute;
+    left:985px;
+    top:34px;
+    color:white;
+}
+
+.headbox {
+    display:block;
+    background-color:#3C86BD;
+    height:100px;
+    line-height:100px;
+    width:auto;
+    text-align:left;
+    color:white;
+    font-size:64px;
+    text-shadow: 3px 3px 0 black;
+    border-bottom:1px solid black;
+}
+
+p   {
+    position:relative;
+    left:20px;
+}
+
+.backcolor {
+    background-color:#262626;
+}
+
+.box {
+    display:block;
+    position:relative;
+    height:60px;
+    line-height:60px;
+    margin:auto;
+    margin-bottom:30px;
+    margin-top:30px;
+    text-align:center;
+    background-color:#3C86BD;
+    width:400px;
+    font-family:army;
+    font-size:36px;
+    text-shadow: 2px 2px 0 black;
+    color:white;
+    top:15px;
+    border:1px solid white;
+}
+
+.textbox {
+    position:relative;
+    display:block;
+    margin:auto;
+    text-align:center;
+    margin-bottom:60px;
+    color:white;
+    bottom:5px;
+}
