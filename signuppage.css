@@ -77,10 +77,14 @@
 }
 
 .submitbutton {
-    margin-top:20px;
+    width:200px;
+    margin-top:60px;
     margin-bottom:20px;
     position:relative;
-    left:216px;
+    left:150px;
+    background-color:#3C86BD;
+    color:white;
+    border:3px solid white;
 }
 
 .employerlink {
@@ -89,15 +93,16 @@
     margin-bottom: 40px;
     position:relative;
     left:140px;
-    border:solid white 1px;
-    background-color:#3C86BD;
+    border:solid #262626 1px;
+    background-color:#262626;
+    color:#262626;
 }
 
 
 .movesignuppic {
     position:relative;
     width:400px;
-    bottom:405px;
+    bottom:440px;
     left:230px;
 }
 
