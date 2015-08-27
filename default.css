@@ -40,10 +40,10 @@ p   {
 .mainpicdiv {
     position:absolute;
     right:0px;
-    height:413px;
-    width:1515px;
     margin-left:auto;
     margin-right:auto;
+    height:413px;
+    width:1515px;
     padding-top:50px;
 
 }
@@ -56,8 +56,8 @@ p   {
 
 .borderbox {
     top:210px;
-    width:250px;
     margin:20px;
+    width:250px;
     height:100px;
     line-height:100px;
     text-align:center;
@@ -74,9 +74,9 @@ p   {
 .whatisvetwork {
     display:block;
     position:relative;
+    margin:auto;
     top:460px;
     right:12px;
-    margin:auto;
     width:1040px;
     height:60px;
     line-height:60px;
@@ -91,12 +91,12 @@ p   {
 .vetworkdescrip {
     display:block;
     position:relative;
+    margin:auto;
     top:460px;
     right:12px;
     width:1040px;
     height:200px;
     line-height:60px;
-    margin:auto;
     padding:-5px;
     color:white;
     background-color:#262626;
@@ -116,12 +116,12 @@ p   {
 .employerbenefit {
     display:block;
     position:relative;
+    margin:auto;
     top:964px;
     right:12px;
     width:1040px;
     height:60px;
     line-height:60px;
-    margin:auto;
     color:white;
     background-color:#3C86BD;
     text-align:center;
@@ -133,12 +133,12 @@ p   {
 .explanation {
     display:block;
     position:relative;
+    margin:auto;
     top:964px;
     right:12px;
     width:1040px;
     height:240px;
     line-height:60px;
-    margin:auto;
     color:white;
     background-color:#262626;
     border:1px solid black;
