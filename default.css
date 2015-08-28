@@ -3,55 +3,13 @@
     src: url(misc/Army.woff);
 }
 
-.army {
-    font-family:army;
-}
-
-.signinbox {
-    position:absolute;
-    left:985px;
-    top:34px;
-    color:white;
-}
-
-.headbox {
-    display:block;
-    width:auto;
-    height:100px;
-    line-height:100px;
-    text-align:left;
-    font-size:64px;
-    color:white;
-    background-color:#3C86BD;
-    border-bottom:1px solid black;
-    text-shadow: 3px 3px 0 black;
-    font-family:army;
-}
-
 p   {
     position:relative;
     left:20px;
 }
 
-.removespace {
-    margin-bottom:0px;
-}
-
-.mainpicdiv {
-    position:absolute;
-    right:0px;
-    margin-left:auto;
-    margin-right:auto;
-    height:413px;
-    width:1515px;
-    padding-top:50px;
-
-}
-
-.mainpic {
-    height:413px;
-    width:1515px;
-    opacity:.7;
+.army {
+    font-family:army;
 }
 
 .borderbox {
@@ -69,48 +27,6 @@ p   {
 
 .borderbox:hover {
     background-color: #3C86BD;
-}
-
-.whatisvetwork {
-    display:block;
-    position:relative;
-    margin:auto;
-    top:460px;
-    right:12px;
-    width:1040px;
-    height:60px;
-    line-height:60px;
-    text-align:center;
-    color:white;
-    background-color:#3C86BD;
-    font-size:36px;
-    text-shadow: 2px 2px 0 black;
-    border:1px solid black;
-}
-
-.vetworkdescrip {
-    display:block;
-    position:relative;
-    margin:auto;
-    top:460px;
-    right:12px;
-    width:1040px;
-    height:200px;
-    line-height:60px;
-    padding:-5px;
-    color:white;
-    background-color:#262626;
-    border:1px solid black;
-    text-align:justify;
-    font-size:16px;
-}
-
-.vetphonepic {
-    position:relative;
-    top:21px;
-    width:1038px;
-    height:500px;
-    border:solid black 1px;
 }
 
 .employerbenefit {
@@ -145,4 +61,87 @@ p   {
     text-align:justify;
     font-size:16px;
     padding:-5px;
+}
+
+.headbox {
+    display:block;
+    width:auto;
+    height:100px;
+    line-height:100px;
+    text-align:left;
+    font-size:64px;
+    color:white;
+    background-color:#3C86BD;
+    border-bottom:1px solid black;
+    text-shadow: 3px 3px 0 black;
+    font-family:army;
+}
+
+.mainpicdiv {
+    position:absolute;
+    right:0px;
+    margin-left:auto;
+    margin-right:auto;
+    height:413px;
+    width:1515px;
+    padding-top:50px;
+}
+
+.mainpic {
+    height:413px;
+    width:1515px;
+    opacity:.7;
+}
+
+.removespace {
+    margin-bottom:0px;
+}
+
+.signinbox {
+    position:absolute;
+    left:985px;
+    top:34px;
+    color:white;
+}
+
+.vetphonepic {
+    position:relative;
+    top:21px;
+    width:1038px;
+    height:500px;
+    border:solid black 1px;
+}
+
+.vetworkdescrip {
+    display:block;
+    position:relative;
+    margin:auto;
+    top:460px;
+    right:12px;
+    width:1040px;
+    height:200px;
+    line-height:60px;
+    padding:-5px;
+    color:white;
+    background-color:#262626;
+    border:1px solid black;
+    text-align:justify;
+    font-size:16px;
+}
+
+.whatisvetwork {
+    display:block;
+    position:relative;
+    margin:auto;
+    top:460px;
+    right:12px;
+    width:1040px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    color:white;
+    background-color:#3C86BD;
+    font-size:36px;
+    text-shadow: 2px 2px 0 black;
+    border:1px solid black;
 }

@@ -3,41 +3,13 @@
     src: url(../misc/Army.woff);
 }
 
-.army {
-    font-family:army;
-}
-
-.signinbox {
-    position:absolute;
-    top:34px;
-    left:985px;
-    color:white;
-}
-
-.headbox {
-    display:block;
-    width:auto;
-    height:100px;
-    line-height:100px;
-    color:white;
-    background-color:#3C86BD;
-    font-size:64px;
-    text-align:left;
-    text-shadow: 3px 3px 0 black;
-    border-bottom:1px solid black;
-}
-
 p   {
     position:relative;
     left:20px;
 }
 
-.greyback {
-    position:relative;
-    bottom:29px;
-    background-color:#C8C5C9;
-    border-top: #514F51;
-
+.army {
+    font-family:army;
 }
 
 .box {
@@ -52,11 +24,38 @@ p   {
     line-height:60px;
     color:white;
     background-color:#3C86BD;
-    font-size:42px;
-    text-align:center;
-    font-family:army;
-    text-shadow: 2px 2px 0 black;
     border:1px solid white;
+    font-size:42px;
+    font-family:army;
+    text-align:center;
+    text-shadow: 2px 2px 0 black;
+}
+
+.greyback {
+    position:relative;
+    bottom:29px;
+    background-color:#C8C5C9;
+    border-top: #514F51;
+}
+
+.headbox {
+    display:block;
+    width:auto;
+    height:100px;
+    line-height:100px;
+    color:white;
+    background-color:#3C86BD;
+    border-bottom:1px solid black;
+    font-size:64px;
+    text-align:left;
+    text-shadow: 3px 3px 0 black;
+}
+
+.signinbox {
+    position:absolute;
+    top:34px;
+    left:985px;
+    color:white;
 }
 
 .textbox {

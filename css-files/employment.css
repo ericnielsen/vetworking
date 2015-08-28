@@ -3,150 +3,37 @@
     src: url(../misc/Army.woff);
 }
 
-.opacity {
-    display:block;
-    position:absolute;
-    opacity:.7;
-    top:142px;
-    width:1440px;
-    height:1750px;
-     background-color:black;
-}
-
 .army {
     font-family:army;
-}
-
-.signinbox {
-    position:absolute;
-    top:34px;
-    left:985px;
-    color:white;
-}
-
-.headbox {
-    display:block;
-    width:auto;
-    height:100px;
-    line-height:100px;
-    text-align:left;
-    color:white;
-    background-color:#3C86BD;
-    font-size:64px;
-    text-shadow: 3px 3px 0 black;
-    border-bottom:1px solid black;
-
-}
-.pformat   {
-    position:relative;
-    left:20px;
 }
 
 .contspacing {
     margin-top:40px;
 }
 
-.topleftbox {
+
+.headbox {
     display:block;
-    height:400px;
+    width:auto;
+    height:100px;
+    line-height:100px;
+    color:white;
     background-color:#3C86BD;
+    border-bottom:1px solid black;
+    font-size:64px;
+    text-align:left;
+    text-shadow: 3px 3px 0 black;
 }
 
-.topleftbanner {
-    display:block;
+.eliminategap {
+    margin-top:-400px;
+}
+
+.emppic {
     position:relative;
-    right:15px;
-    margin:auto;
-    width:720px;
-    height:70px;
-    line-height:70px;
-    color:white;
-    background-color:#3C86BD;
-    text-align:center;
-    font-size:36px;
-    font-family:army;
-    text-shadow: 2px 2px 0 black;
-    border-left:1px solid white;
-    border-right:1px solid white;
-    border-top:1px solid white;
-}
-
-.toplefttext {
-    display:block;
-    position:relative;
-    margin:auto;
-    overflow:hidden;
-    right:15px;
-    width:720px;
-    height:350px;
-    color:white;
-    font-size:24px;
-    text-align:justify;
-    padding:60px;
-    padding-top:50px;
-    border:1px solid white;
-}
-
-.toplefttext p {
-    position: relative;
-    z-index: 2;
-
-}
-.toplefttext img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.4;
-}
-
-.toprightbox {
-    display:block;
-    width:350px;
-    height:1320px;
-    background-color:#262626;
-    border:1px solid white;
-}
-
-.toprightbanner {
-    display:block;
-    position:relative;
-    right:15px;
-    width:350px;
-    height:70px;
-    line-height:70px;
-    color:white;
-    background-color:#3C86BD;
-    font-size:36px;
-    text-align:center;
-    font-family:army;
-    text-shadow: 2px 2px 0 black;
-    border-right:solid 1px white;
-    border-bottom:solid 1px white;
-}
-
-.toprightbannertexthead {
-    margin-top:30px;
-    color:white;
-    background-color:#3C86BD;
-    text-align:center;
-    border:1px solid white;
-}
-
-.toprightbannersubtext {
-    margin-top:15px;
-    color:white;
-    text-align:justify;
-}
-
-.middleleftbox {
-    display:block;
-    margin-top:-920px;
-    height:346px;
-    background-color:#262626;
-    border-left:1px solid white;
-    border-right:1px solid white;
+    margin:50px;
+    width:200px;
+    height:200px;
 }
 
 .middleleftbanner {
@@ -166,23 +53,38 @@
     border:1px solid white;
 }
 
-.emppic {
-    position:relative;
-    margin:50px;
-    width:200px;
-    height:200px;
+.middleleftbox {
+    display:block;
+    margin-top:-920px;
+    height:346px;
+    background-color:#262626;
+    border-left:1px solid white;
+    border-right:1px solid white;
 }
 
-.textsubtitle {
+.opacity {
+    display:block;
+    position:absolute;
+    opacity:.7;
+    top:142px;
+    width:1440px;
+    height:1750px;
+    background-color:black;
+}
+
+.pformat   {
     position:relative;
-    left:300px;
-    bottom:250px;
-    width:300px;
-    color:white;
+    left:20px;
+}
+
+.secondmiddleleftbox {
+    display:block;
+    position:relative;
+    bottom:215px;
+    height:340px;
     background-color:#262626;
-    text-align:center;
-    text-shadow: 1px 1px 0 black;
-    border:1px solid white;
+    border-left:solid 1px white;
+    border-right:solid 1px white;
 }
 
 .subtext {
@@ -203,14 +105,23 @@
     text-align:justify;
 }
 
-.secondmiddleleftbox {
-    display:block;
+.signinbox {
+    position:absolute;
+    top:34px;
+    left:985px;
+    color:white;
+}
+
+.textsubtitle {
     position:relative;
-    bottom:215px;
-    height:340px;
+    left:300px;
+    bottom:250px;
+    width:300px;
+    color:white;
     background-color:#262626;
-    border-left:solid 1px white;
-    border-right:solid 1px white;
+    border:1px solid white;
+    text-align:center;
+    text-shadow: 1px 1px 0 black;
 }
 
 .thirdmiddleleftbox {
@@ -225,6 +136,96 @@
     border-bottom:solid 1px white;
 }
 
-.eliminategap {
-    margin-top:-400px;
+.topleftbanner {
+    display:block;
+    position:relative;
+    right:15px;
+    margin:auto;
+    width:720px;
+    height:70px;
+    line-height:70px;
+    color:white;
+    background-color:#3C86BD;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    border-top:1px solid white;
+    text-align:center;
+    font-size:36px;
+    font-family:army;
+    text-shadow: 2px 2px 0 black;
+}
+
+.topleftbox {
+    display:block;
+    height:400px;
+    background-color:#3C86BD;
+}
+
+.toplefttext {
+    display:block;
+    position:relative;
+    margin:auto;
+    overflow:hidden;
+    padding:60px;
+    padding-top:50px;
+    right:15px;
+    width:720px;
+    height:350px;
+    color:white;
+    border:1px solid white;
+    font-size:24px;
+    text-align:justify;
+}
+
+.toplefttext p {
+    position: relative;
+    z-index: 2;
+}
+
+.toplefttext img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+}
+
+.toprightbanner {
+    display:block;
+    position:relative;
+    right:15px;
+    width:350px;
+    height:70px;
+    line-height:70px;
+    color:white;
+    background-color:#3C86BD;
+    border-right:solid 1px white;
+    border-bottom:solid 1px white;
+    font-size:36px;
+    text-align:center;
+    font-family:army;
+    text-shadow: 2px 2px 0 black;
+}
+
+.toprightbannertexthead {
+    margin-top:30px;
+    color:white;
+    background-color:#3C86BD;
+    border:1px solid white;
+    text-align:center;
+}
+
+.toprightbannersubtext {
+    margin-top:15px;
+    color:white;
+    text-align:justify;
+}
+
+.toprightbox {
+    display:block;
+    width:350px;
+    height:1320px;
+    background-color:#262626;
+    border:1px solid white;
 }

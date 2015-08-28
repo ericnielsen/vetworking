@@ -3,15 +3,78 @@
     src: url(../misc/Army.woff);
 }
 
+p   {
+    position:relative;
+    left:20px;
+}
+
 .army {
     font-family:army;
 }
 
-.signinbox {
-    position:absolute;
-    left:985px;
-    top:34px;
+.backcolor {
+    background-color:#3C3C3C;
+}
+
+.buttonsize {
+    width:100px;
+    height:50px;
     color:white;
+    background-color:#3C86BD;
+    border:1px solid white;
+}
+
+.citytext {
+    position:relative;
+    padding-right:360px;
+    font-size:18px;
+}
+
+.customform {
+    padding:20px;
+    margin:auto;
+    color:white;
+    background-color:#262626;
+    text-align:center;
+}
+
+.desriptext {
+
+    position:relative;
+    padding-top:40px;
+    padding-bottom:40px;
+    color:white;
+    background-color:#262626;
+    border-top:1px solid white;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    font-size:18px;
+    text-align:center;
+}
+
+.findavetbanner {
+    height:60px;
+    line-height:60px;
+    color:white;
+    background-color:#3C86BD;
+    text-shadow: 2px 2px 0 black;
+    border-left:solid white 1px;
+    border-right:solid white 1px;
+    border-top:solid white 1px;
+    font-size:48px;
+    font-family:army;
+    text-align:center;
+}
+
+.formborder {
+    border-right:solid white 1px;
+    border-left:solid white 1px;
+}
+
+.formtext {
+    position:relative;
+    padding-right:300px;
+    font-size:18px;
 }
 
 .headbox {
@@ -22,121 +85,59 @@
     text-align:left;
     color:white;
     background-color:#3C86BD;
+    border-bottom:1px solid black;
     font-size:64px;
     text-shadow: 3px 3px 0 black;
-    border-bottom:1px solid black;
 }
 
-p   {
+.keywordtext {
     position:relative;
-    left:20px;
+    padding-right:318px;
+    font-size:18px;
 }
 
-.backcolor {
-    background-color:#3C3C3C;
+.lastnametext{
+    position:relative;
+    padding-right:302px;
+    font-size:18px;
 }
 
 .maincontainer {
     padding-top:80px;
 }
 
-.findavetbanner {
-    height:60px;
-    line-height:60px;
+.signinbox {
+    position:absolute;
+    left:985px;
+    top:34px;
     color:white;
-    background-color:#3C86BD;
-    font-size:48px;
-    font-family:army;
-    text-align:center;
-    text-shadow: 2px 2px 0 black;
-    border-left:solid white 1px;
-    border-right:solid white 1px;
-    border-top:solid white 1px;
-}
-
-.desriptext {
-    text-align:center;
-    position:relative;
-    color:white;
-    background-color:#262626;
-    font-size:18px;
-    padding-top:40px;
-    padding-bottom:40px;
-    border-top:1px solid white;
-    border-right:1px solid white;
-    border-left:1px solid white;
-}
-
-.customform {
-    margin:auto;
-    text-align:center;
-    color:white;
-    background-color:#262626;
-    padding:20px;
-}
-
-.formtext {
-    position:relative;
-    font-size:18px;
-    padding-right:300px;
-}
-
-.lastnametext{
-    position:relative;
-    font-size:18px;
-    padding-right:302px
 }
 
 .statetext{
     position:relative;
-    font-size:18px;
     padding-right:350px;
+    font-size:18px;
 }
 
-.citytext {
-    position:relative;
-    font-size:18px;
-    padding-right:360px;
+.submitbutton {
+    padding-bottom:40px;
+    padding-top:40px;
+    margin-bottom:200px;
+    background-color:#262626;
+    border-left:solid white 1px;
+    border-right:solid white 1px;
+    border-bottom:solid white 1px;
+    text-align:center;
 }
 
 .withintext {
     position:relative;
-    font-size:18px;
     padding-right:340px;
+    font-size:18px;
 }
 
 .ziptext {
     position:relative;
-    font-size:18px;
     padding-right:316px;
-}
-
-.keywordtext {
-    position:relative;
     font-size:18px;
-    padding-right:318px;
-}
-
-.formborder {
-    border-right:solid white 1px;
-    border-left:solid white 1px;
-}
-
-.submitbutton {
-    margin-bottom:200px;
-    background-color:#262626;
-    text-align:center;
-    padding-bottom:40px;
-    padding-top:40px;
-    border-left:solid white 1px;
-    border-right:solid white 1px;
-    border-bottom:solid white 1px;
-}
-
-.buttonsize {
-    width:100px;
-    height:50px;
-    color:white;
-    background-color:#3C86BD;
-    border:1px solid white;
 }
