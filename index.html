@@ -10,83 +10,105 @@
   <link type="text/css" rel="stylesheet" href="default.css">
 </head>
 <body>
-<div class="signinbox">
-  <form class="form-inline">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputPassword3">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-  </div>
-  <button type="submit" class="btn btn-default">Sign in</button>
-</form>
-</div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="headbox">
-      <p class="army">Vetworking</p>
-    </div>
-  </div>
-</div>
-<ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="index.html">Home</a></li>
-  <li role="presentation"><a href="html-files/signuppage.html">Sign up</a></li>
-  <li role="presentation"><a href="html-files/employment.html">Employment</a></li>
-  <li role="presentation"><a href="html-files/search.html">Search</a></li>
-  <li role="presentation"><a href="html-files/forum.html">Forum</a></li>
-</ul>
-<div class="container mainpicdiv">
-  <img class="mainpic" src="image/handshake.jpg">
-</div>
 <div class="container">
-  <div class="row">
-    <div class="col-md-3">
-    </div>
-    <a href="html-files/search.html"><div class="buttonbox col-md-3">
-      Hire a Veteran
-    </div></a>
-      <a href="html-files/signuppage.html">
-        <div class="buttonbox col-md-3">
-          Veteran Registration
-        </div></a>
-    <div class="col-md-3">
-    </div>
+  <div id="title" class="row">
+    <div id="shrinktitle" class="titlename">Vetworking</div>
   </div>
 </div>
-<div class="container-fluid whatisvetwork">
-  <div class="row army">
-    What is vetworking?
+<div class ="container">
+  <div id = "pichost" class = "row">
+    <img src = "handshake.jpg">
   </div>
-</div>
-<div class="container-fluid vetworkdescrip">
-  <div class="row">
+  <div id="shrinkbox" class="row boxrow">
     <div class="col-md-12">
-    Every year, hundreds of thousands of veterans leave the military.  The transition to civilian life can be difficult,
-    especially without adequate information and resources.  There is over a 17% unemployment rate among veterans aged
-    18-24.   Vetworking gives veterans a social media platform to connect with other veterans to network and provide
-    professional assistance.
+      <div class="col-md-6">
+        <div id="signupbox">
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Register</button>
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-sm">
+              <div id="formsize" class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Sign up with Vetworking!</h4>
+                </div>
+                <div class="modal-body">
+                  <form id ="signup">
+                    <div>
+                      <div class="radio">
+                        <div class="form-group">
+                          <label for="firstname"></label>
+                          <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First name" min="1" max="10">
+                        </div>
+                        <div class="form-group">
+                          <label for="lastname"></label>
+                          <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" min="1" max="10">
+                        </div>
+                        <div class="form-group">
+                          <label for="password"></label>
+                          <input type="password" name="password"class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                          <label for="verifypassword"></label>
+                          <input type="password" name="verifypassword"class="form-control" id="verifypassword" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                          <label for="email"></label>
+                          <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <label for="zipcode"></label>
+                          <input type="text" name="zipcode" class="form-control" id="zipcode" placeholder="Zip Code">
+                        </div>
+                      </div>
+                      <button id ="signupbutton" type="submit" class="btn btn-default">Sign up!</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div id="loginbox">
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modallogin">Login</button>
+          <div class="modal fade" id="modallogin" role="dialog">
+            <div class="modal-dialog modal-sm">
+              <div id="formsizelogin" class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Welcome back!</h4>
+                </div>
+                <div class="modal-body">
+                  <form id ="login">
+                    <div>
+                      <div class="radio">
+                        <div class="form-group">
+                          <label for="emaillogin"></label>
+                          <input type="text" name="emaillogin" class="form-control" id="emaillogin" placeholder="Email" min="1" max="10">
+                        </div>
+                        <div class="form-group">
+                          <label for="passwordlogin"></label>
+                          <input type="password" name="passwordlogin"class="form-control" id="passwordlogin" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                          <label for="verifypasswordlogin"></label>
+                          <input type="password" name="verifypasswordlogin"class="form-control" id="verifypasswordlogin" placeholder="Verify Password">
+                        </div>
+                        <button id ="loginbutton" type="submit" class="btn btn-default">Login in</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <img class="vetphonepic" src="image/vetphone.jpg">
-  </div>
 </div>
-<div class="container-fluid employerbenefit">
-  <div class="row army">
-    What's in it for the employers?
-  </div>
-</div>
-<div class="container-fluid explanation">
-  <div class="row">
-    <div class="col-md-12">
-      Besides the professionalism, discipline, and work ethic that is typically instilled in our veterans, there are
-      tangible business reasons why it is advantageous for companies to hire veterans.  Companies often times receive
-      tax breaks for hiring veterans.  Many veterans served in military occupations that directly correlate to civilian
-      ones.  Vetworking allows companies to easily and efficiently locate employees that suit their needs.
-    </div>
-  </div>
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -3,145 +3,225 @@
     src: url(misc/Army.woff);
 }
 
-p   {
-    position:relative;
-    left:20px;
+@media only screen and (max-width: 817px) {
+
+    #shrinkbox {
+        bottom: 10px;
+    }
 }
 
-.army {
-    font-family:army;
+@media only screen and (max-width: 817px) {
+
+    #shrinktitle {
+        font-size: 60px;
+    }
 }
 
-.buttonbox {
-    top:210px;
-    margin:20px;
-    width:250px;
-    height:100px;
-    line-height:100px;
-    color:white;
-    background-color:#262626;
-    border: 3px solid white;
-    text-align:center;
-    font-size:18px;
+#title {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.buttonbox:hover {
-    background-color: #3C86BD;
+.titlename {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: army;
+    color: black;
+    text-align: center;
+    font-size: 112px;
+    text-shadow: 2px 2px 30px grey;
 }
 
-.employerbenefit {
-    display:block;
-    position:relative;
-    margin:auto;
-    top:964px;
-    right:12px;
-    width:1040px;
-    height:60px;
-    line-height:60px;
-    color:white;
-    background-color:#3C86BD;
-    text-align:center;
-    font-size:36px;
-    text-shadow: 2px 2px 0 black;
-    border:1px solid black;
+#pichost {
+
+    top: -50%;
+    left: -100%;
+    width: 300%;
+    height: 200%;
+    text-align: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+
 }
 
-.explanation {
-    display:block;
-    position:relative;
-    margin:auto;
-    top:964px;
-    right:12px;
-    width:1040px;
-    height:240px;
-    line-height:60px;
-    color:white;
-    background-color:#262626;
-    border:1px solid black;
-    text-align:justify;
-    font-size:16px;
-    padding:-5px;
+#pichost img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
 }
 
-.headbox {
-    display:block;
-    width:auto;
-    height:100px;
-    line-height:100px;
-    text-align:left;
-    font-size:64px;
-    color:white;
-    background-color:#3C86BD;
-    border-bottom:1px solid black;
-    text-shadow: 3px 3px 0 black;
-    font-family:army;
+.btn {
+    background-color: black;
+    height: 100px;
+    width: 250px;
+    font-size: 24px;
+    border: white solid 3px;
+    box-shadow: 0 0 10px grey;
 }
 
-.mainpicdiv {
-    position:absolute;
-    right:0px;
-    margin-left:auto;
-    margin-right:auto;
-    height:413px;
-    width:1515px;
-    padding-top:50px;
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: black 6px solid;
+    font-size: 36px;
+    box-shadow: 0 0 10px grey;
+    text-decoration: underline;
+    text-shadow: 0 0 5px grey;
 }
 
-.mainpic {
-    height:413px;
-    width:1515px;
-    opacity:.7;
+.btn-info.focus, .btn-info:focus {
+    background-color: white;
+    color: black;
+    border: black 6px solid;
+    font-size: 36px;
+    box-shadow: 0 0 10px grey;
 }
 
-.removespace {
-    margin-bottom:0px;
+.boxrow {
+    position: relative;
+    bottom: 300px;
+    text-align: center;
+    width: 100%;
+    margin: auto 0;
 }
 
-.signinbox {
-    position:absolute;
-    left:985px;
-    top:34px;
-    color:white;
+#signupbox {
+    margin-top: 20px;
+    height: 100px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 100px;
+    font-family: army;
 }
 
-.vetphonepic {
-    position:relative;
-    top:21px;
-    width:1038px;
-    height:500px;
-    border:solid black 1px;
+#loginbox {
+    margin-top: 20px;
+    height: 100px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 100px;
+    font-family: army;
 }
 
-.vetworkdescrip {
-    display:block;
-    position:relative;
-    margin:auto;
-    top:460px;
-    right:12px;
-    width:1040px;
-    height:200px;
-    line-height:60px;
-    padding:-5px;
-    color:white;
-    background-color:#262626;
-    border:1px solid black;
-    text-align:justify;
-    font-size:16px;
+.modal-title {
+    font-size: 48px;
 }
 
-.whatisvetwork {
-    display:block;
-    position:relative;
-    margin:auto;
-    top:460px;
-    right:12px;
-    width:1040px;
-    height:60px;
-    line-height:60px;
-    text-align:center;
-    color:white;
-    background-color:#3C86BD;
-    font-size:36px;
-    text-shadow: 2px 2px 0 black;
-    border:1px solid black;
+#lastname {
+    width: 100%;
+    margin-top: -27%;
+}
+
+#firstname {
+    width: 100%;
+    margin-top: -27%;
+}
+
+#password {
+    width: 100%;
+    margin-top: -27%;
+}
+
+#verifypassword {
+    width: 100%;
+    margin-top: -27%;
+}
+
+#email {
+    width: 100%;
+    margin-top: -27%;
+}
+
+#zipcode {
+    width: 100%;
+    margin-top: -27%;
+}
+
+#formsize {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#formsizelogin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#emaillogin {
+    width: 100%;
+    margin-top: -27%;
+}
+
+#passwordlogin {
+    width: 100%;
+    margin-top: -27%;
+}
+
+#verifypasswordlogin {
+    width: 100%;
+    margin-top: -27%;
+}
+
+@media only screen and (min-width: 1px) {
+
+    .modal-sm {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#signupbutton {
+    width: 360px;
+    height: 100%;
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+    border: black 3px solid;
+    padding: 0;
+    font-size: 48px;
+}
+
+#signupbutton:hover {
+    background-color: black;
+    color: white;
+    font-size: 64px;
+    border: white 3px solid;
+    box-shadow: 0 0 20px black;
+    text-decoration: underline;
+}
+
+#loginbutton {
+    width: 360px;
+    height: 100%;
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+    border: black 3px solid;
+    padding: 0;
+    font-size: 48px;
+}
+
+#loginbutton:hover {
+    background-color: black;
+    color: white;
+    font-size: 64px;
+    border: white 3px solid;
+    box-shadow: 0 0 20px black;
+    text-decoration: underline;
 }
